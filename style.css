@@ -1,0 +1,126 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    /* Colors */
+    --cyan: hsl(179, 62%, 43%);
+    --darker-cyan: hsl(179, 63%, 36%);
+    --bright-yellow: hsl(71, 73%, 54%);
+
+    --light-grey: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+
+    /* Fonts */
+    --karla: 'Karla';
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: var(--karla);
+}
+div.Parent-container {
+    background-color: var(--light-grey);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+}
+div.Card {
+    /* background-color: red; */
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 1px rgba(0,0,0,0.1);
+}
+div.Container-one {
+    height: 50%;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+div.Container-two {
+    height: 50%;
+    /* background-color: green; */
+    /* border-bottom-left-radius: 10px; */
+    /* border-bottom-right-radius: 10px; */
+    display: flex;
+}
+div.Card-one {
+    width: 50%;
+    height: 100%;
+    background-color: var(--darker-cyan);
+    border-bottom-left-radius: 10px;
+    color: white;
+    padding: 40px;
+}
+div.Card-two {
+    width: 50%;
+    height: 100%;
+    background-color: var(--cyan);
+    border-bottom-right-radius: 10px;
+    color: white;
+    padding: 40px;
+}
+h1.Header-one {
+    color: var(--darker-cyan);
+    font-size: 40px;
+}
+h2.Header-two {
+    color: var(--bright-yellow);
+    font-size: 20px;
+    margin-top: 24px;
+}
+h3.Header-three {
+    color: var(--grayish-blue);
+    font-size: 16px;
+    margin-top: 24px;
+}
+h1.Card-header-one {
+    font-size: 20px;
+}
+h2.Price-header-two {
+    font-size: 30px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+span.Span-one {
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+    opacity: 0.5;
+}
+p.Card-para {
+    margin-top: 5px;
+    font-size: 16px;
+}
+button.Signup-btn {
+    border-radius: 3px;
+    background-color: var(--bright-yellow
+    );
+    color: white;
+    padding: 10px 95px;
+    border: 0px;
+    font-size: 15px;
+    margin-top: 30px;
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.1);
+    transition: 0.1s ease-in ;
+}
+button.Signup-btn:hover {
+    background-color: white;
+    color: var(--bright-yellow);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0);
+}
+h1.Card-two-header-one {
+    font-size: 20px;
+}
+p.Card-two-para {
+    margin-top: 17px;
+    font-size: 15px;
+    opacity: 0.5;
+}
